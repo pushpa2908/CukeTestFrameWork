@@ -88,6 +88,7 @@ public class PeoplePage extends BasePage{
 	
 	public void clickSubmit() throws InterruptedException {
 		sendInvitation.click();
+		System.out.println("Message sent");
 		Thread.sleep(6000);		
 	}
 
